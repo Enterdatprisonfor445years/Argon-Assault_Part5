@@ -264,8 +264,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 6087803772576897719, guid: e713bb85400078240bb399397ae370c0, type: 3}
+  hitVFX: {fileID: 6087803772576897719, guid: c30662ea33bc668448f80e0e0422982c, type: 3}
   parent: {fileID: 978931965}
   scorePerHit: 15
+  hitPoints: 30
 --- !u!1 &353221936
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,8 +301,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 6087803772576897719, guid: e713bb85400078240bb399397ae370c0, type: 3}
+  hitVFX: {fileID: 6087803772576897719, guid: c30662ea33bc668448f80e0e0422982c, type: 3}
   parent: {fileID: 978931965}
   scorePerHit: 15
+  hitPoints: 30
 --- !u!136 &353221938
 CapsuleCollider:
   m_ObjectHideFlags: 0
