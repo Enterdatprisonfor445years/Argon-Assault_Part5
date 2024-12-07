@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &235330624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 235330625}
+  m_Layer: 0
+  m_Name: Scoreboard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &235330625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235330624}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 225.6539, y: 93.19479, z: 152.78043}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &245159336
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,6 +296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 6087803772576897719, guid: e713bb85400078240bb399397ae370c0, type: 3}
   parent: {fileID: 978931965}
+  scorePerHit: 15
 --- !u!1 &353221936
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,6 +331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 6087803772576897719, guid: e713bb85400078240bb399397ae370c0, type: 3}
   parent: {fileID: 978931965}
+  scorePerHit: 15
 --- !u!136 &353221938
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -956,3 +989,4 @@ SceneRoots:
   - {fileID: 353221941}
   - {fileID: 8980785301765713934}
   - {fileID: 978931965}
+  - {fileID: 235330625}
